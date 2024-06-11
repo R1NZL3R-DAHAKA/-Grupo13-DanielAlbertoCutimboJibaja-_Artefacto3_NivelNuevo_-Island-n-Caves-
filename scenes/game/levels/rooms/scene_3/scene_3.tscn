@@ -14749,7 +14749,7 @@ animation = "run"
 moving_direction = "active"
 
 [node name="Crabby2" parent="Enemies" instance=ExtResource("11_m2422")]
-position = Vector2(394, 408)
+position = Vector2(349, 507)
 animation = "run"
 moving_direction = "active"
 
