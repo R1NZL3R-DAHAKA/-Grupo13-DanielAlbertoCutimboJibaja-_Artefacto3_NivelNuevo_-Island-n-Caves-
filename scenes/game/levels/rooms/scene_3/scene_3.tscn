@@ -14808,7 +14808,7 @@ animation = "blue_diamond"
 position = Vector2(1231, 19)
 animation = "red_diamond"
 
-[node name="DoorChangeScene4" parent="." instance=ExtResource("14_qvm8n")]
+[node name="PortalChangeScene" parent="." instance=ExtResource("14_qvm8n")]
 z_index = -1
 position = Vector2(1232, -13)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_sandbox/sandbox.tscn"
