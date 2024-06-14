@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://b1d750o6hts76"]
+[gd_scene load_steps=24 format=3 uid="uid://b1d750o6hts76"]
 
 [ext_resource type="Texture2D" uid="uid://bkiiy1wi106q0" path="res://assets/resources/PixelFantasy_Caves_1.0/mainlev_build.png" id="1_6n1u3"]
 [ext_resource type="Texture2D" uid="uid://wvb0k6oekh86" path="res://assets/resources/PixelFantasy_Caves_1.0/background4b.png" id="1_vcg1n"]
@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://bo37g7mv4j6pn" path="res://scenes/game/enemy/crabby.tscn" id="11_m2422"]
 [ext_resource type="PackedScene" uid="uid://bnp6y3fe4kqob" path="res://scenes/game/levels/objects/damage_object/cannon/cannon.tscn" id="12_qoiqx"]
 [ext_resource type="PackedScene" uid="uid://b5qjvfbte4svk" path="res://scenes/game/levels/objects/pickable_object/pickable_object.tscn" id="13_1qpsv"]
+[ext_resource type="PackedScene" uid="uid://brhmupxo2xjim" path="res://scenes/game/levels/objects/change_scene/door_change_scene.tscn" id="14_qvm8n"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_t46nw"]
 tile_data = PackedInt32Array(0, 917505, 6, 65536, 917505, 7, 131072, 917505, 8, 196608, 917505, 9, 1, 983041, 6, 65537, 983041, 7, 131073, 983041, 8, 196609, 983041, 9, 2, 1048577, 6, 65538, 1048577, 7, 131074, 1048577, 8, 196610, 1048577, 9, 3, 1114113, 6, 65539, 1114113, 7, 131075, 1114113, 8, 196611, 1114113, 9, 4, 1179649, 6, 65540, 1179649, 7, 131076, 1179649, 8, 196612, 1179649, 9, 5, 1245185, 6, 65541, 1245185, 7, 131077, 1245185, 8, 196613, 1245185, 9, 6, 851969, 6, 65542, 851969, 7, 131078, 851969, 8, 196614, 851969, 9, 7, 917505, 6, 65543, 917505, 7, 131079, 917505, 8, 196615, 917505, 9, 8, 983041, 6, 65544, 983041, 7, 131080, 983041, 8, 196616, 983041, 9, 9, 1048577, 6, 65545, 1048577, 7, 131081, 1048577, 8, 196617, 1048577, 9, 10, 851969, 6, 65546, 851969, 7, 131082, 851969, 8, 196618, 851969, 9, 11, 917505, 6, 65547, 917505, 7, 131083, 917505, 8, 196619, 917505, 9, 12, 983041, 6, 65548, 983041, 7, 131084, 983041, 8, 196620, 983041, 9, 13, 1048577, 6, 65549, 1048577, 7, 131085, 1048577, 8, 196621, 1048577, 9, 14, 1114113, 6, 65550, 1114113, 7, 131086, 1114113, 8, 196622, 1114113, 9, 15, 851969, 6, 65551, 851969, 7, 131087, 851969, 8, 196623, 851969, 9, 16, 917505, 6, 65552, 917505, 7, 131088, 917505, 8, 196624, 917505, 9, 17, 983041, 6, 65553, 983041, 7, 131089, 983041, 8, 196625, 983041, 9, 18, 1048577, 6, 65554, 1048577, 7, 131090, 1048577, 8, 196626, 1048577, 9, 19, 851969, 6, 65555, 851969, 7, 131091, 851969, 8, 196627, 851969, 9, 20, 917505, 6, 65556, 917505, 7, 131092, 917505, 8, 196628, 917505, 9, 21, 983041, 6, 65557, 983041, 7, 131093, 983041, 8, 196629, 983041, 9, 22, 1048577, 6, 65558, 1048577, 7, 131094, 1048577, 8, 196630, 1048577, 9)
@@ -14806,3 +14807,8 @@ animation = "blue_diamond"
 [node name="RedDiamond" parent="CollectableObjects" instance=ExtResource("13_1qpsv")]
 position = Vector2(1231, 19)
 animation = "red_diamond"
+
+[node name="DoorChangeScene4" parent="." instance=ExtResource("14_qvm8n")]
+z_index = -1
+position = Vector2(1232, -13)
+_path_to_scene = "res://scenes/game/levels/rooms/scene_sandbox/sandbox.tscn"
