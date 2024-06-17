@@ -14759,6 +14759,11 @@ position = Vector2(382, 87)
 animation = "run"
 moving_direction = "active"
 
+[node name="Crabby4" parent="Enemies" instance=ExtResource("11_m2422")]
+position = Vector2(868, 391)
+animation = "run"
+moving_direction = "active"
+
 [node name="DamageObject" type="Node2D" parent="."]
 
 [node name="Cannon" parent="DamageObject" instance=ExtResource("12_qoiqx")]
@@ -14769,6 +14774,9 @@ position = Vector2(1378, 148)
 
 [node name="Cannon3" parent="DamageObject" instance=ExtResource("12_qoiqx")]
 position = Vector2(301, 229)
+
+[node name="Cannon4" parent="DamageObject" instance=ExtResource("12_qoiqx")]
+position = Vector2(526, 550)
 
 [node name="CollectableObjects" type="Node2D" parent="."]
 
