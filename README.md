@@ -1,3 +1,2 @@
-# Platformer2D
-Juego Platformer 2D
-Pirata Malaplata
+# Grupo13_DanielAlbertoCutimboJibaja_Artefacto3_NivelNuevo_Island-n-Caves
+Juego Grupo13_DanielAlbertoCutimboJibaja_Artefacto3_NivelNuevo_Island-n-Caves
